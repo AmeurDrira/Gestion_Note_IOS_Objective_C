@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9917C2671DEB313300C8D1D7 /* FormulaireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9917C2661DEB313300C8D1D7 /* FormulaireViewController.m */; };
+		9953A03C1DECF4340061B27A /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9953A03B1DECF4340061B27A /* plus.png */; };
+		9964501E1DFDC72200B67D13 /* BWJSONMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 996450191DFDC72200B67D13 /* BWJSONMatcher.m */; };
+		9964501F1DFDC72200B67D13 /* NSObject+BWJSONMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9964501C1DFDC72200B67D13 /* NSObject+BWJSONMatcher.m */; };
+		996450221DFDDBCD00B67D13 /* InscriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996450211DFDDBCD00B67D13 /* InscriViewController.m */; };
+		99785DAD1DEB122B00FAD498 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99785DAC1DEB122B00FAD498 /* TableViewController.m */; };
+		998AA8E11DEB8DF8001A4263 /* ResultatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998AA8E01DEB8DF8001A4263 /* ResultatViewController.m */; };
+		999B86811DE8F26D0055ACAB /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 999B86801DE8F26D0055ACAB /* Note.m */; };
+		999B86881DE923AE0055ACAB /* MatiereTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 999B86861DE923AE0055ACAB /* MatiereTableViewCell.m */; };
+		999B86891DE923AE0055ACAB /* MatiereTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999B86871DE923AE0055ACAB /* MatiereTableViewCell.xib */; };
 		99D03B161DE47F6200364CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D03B151DE47F6200364CBF /* main.m */; };
 		99D03B191DE47F6200364CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D03B181DE47F6200364CBF /* AppDelegate.m */; };
 		99D03B1C1DE47F6200364CBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D03B1B1DE47F6200364CBF /* ViewController.m */; };
@@ -16,6 +26,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9917C2651DEB313300C8D1D7 /* FormulaireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormulaireViewController.h; sourceTree = "<group>"; };
+		9917C2661DEB313300C8D1D7 /* FormulaireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormulaireViewController.m; sourceTree = "<group>"; };
+		9953A03B1DECF4340061B27A /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		996450181DFDC72200B67D13 /* BWJSONMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWJSONMatcher.h; sourceTree = "<group>"; };
+		996450191DFDC72200B67D13 /* BWJSONMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWJSONMatcher.m; sourceTree = "<group>"; };
+		9964501A1DFDC72200B67D13 /* BWJSONValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWJSONValueObject.h; sourceTree = "<group>"; };
+		9964501B1DFDC72200B67D13 /* NSObject+BWJSONMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BWJSONMatcher.h"; sourceTree = "<group>"; };
+		9964501C1DFDC72200B67D13 /* NSObject+BWJSONMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BWJSONMatcher.m"; sourceTree = "<group>"; };
+		996450201DFDDBCD00B67D13 /* InscriViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InscriViewController.h; sourceTree = "<group>"; };
+		996450211DFDDBCD00B67D13 /* InscriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InscriViewController.m; sourceTree = "<group>"; };
+		99785DAB1DEB122B00FAD498 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		99785DAC1DEB122B00FAD498 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		998AA8DF1DEB8DF8001A4263 /* ResultatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultatViewController.h; sourceTree = "<group>"; };
+		998AA8E01DEB8DF8001A4263 /* ResultatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultatViewController.m; sourceTree = "<group>"; };
+		999B867F1DE8F26D0055ACAB /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		999B86801DE8F26D0055ACAB /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		999B86851DE923AE0055ACAB /* MatiereTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatiereTableViewCell.h; path = ../MatiereTableViewCell.h; sourceTree = "<group>"; };
+		999B86861DE923AE0055ACAB /* MatiereTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatiereTableViewCell.m; path = ../MatiereTableViewCell.m; sourceTree = "<group>"; };
+		999B86871DE923AE0055ACAB /* MatiereTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatiereTableViewCell.xib; sourceTree = "<group>"; };
 		99D03B111DE47F6200364CBF /* GestionNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestionNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D03B151DE47F6200364CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99D03B171DE47F6200364CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,9 +68,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		996450171DFDC6D700B67D13 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				9964501D1DFDC72200B67D13 /* BWJSONMatcher */,
+			);
+			name = library;
+			sourceTree = "<group>";
+		};
+		9964501D1DFDC72200B67D13 /* BWJSONMatcher */ = {
+			isa = PBXGroup;
+			children = (
+				996450181DFDC72200B67D13 /* BWJSONMatcher.h */,
+				996450191DFDC72200B67D13 /* BWJSONMatcher.m */,
+				9964501A1DFDC72200B67D13 /* BWJSONValueObject.h */,
+				9964501B1DFDC72200B67D13 /* NSObject+BWJSONMatcher.h */,
+				9964501C1DFDC72200B67D13 /* NSObject+BWJSONMatcher.m */,
+			);
+			name = BWJSONMatcher;
+			path = "/Users/ameurdrira/Documents/IosApplication/ws/ws/../../../../Downloads/BWJSONMatcher-master/BWJSONMatcher";
+			sourceTree = "<absolute>";
+		};
+		998AA8E31DEBA904001A4263 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				999B86851DE923AE0055ACAB /* MatiereTableViewCell.h */,
+				99785DAB1DEB122B00FAD498 /* TableViewController.h */,
+				9917C2651DEB313300C8D1D7 /* FormulaireViewController.h */,
+				99D03B171DE47F6200364CBF /* AppDelegate.h */,
+				998AA8DF1DEB8DF8001A4263 /* ResultatViewController.h */,
+				99D03B1A1DE47F6200364CBF /* ViewController.h */,
+				996450201DFDDBCD00B67D13 /* InscriViewController.h */,
+			);
+			name = interfaces;
+			sourceTree = "<group>";
+		};
+		999B867D1DE8F1D70055ACAB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				999B867F1DE8F26D0055ACAB /* Note.h */,
+				999B86801DE8F26D0055ACAB /* Note.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		999B867E1DE8F1E10055ACAB /* controler */ = {
+			isa = PBXGroup;
+			children = (
+				999B86861DE923AE0055ACAB /* MatiereTableViewCell.m */,
+				996450211DFDDBCD00B67D13 /* InscriViewController.m */,
+				99785DAC1DEB122B00FAD498 /* TableViewController.m */,
+				9917C2661DEB313300C8D1D7 /* FormulaireViewController.m */,
+				998AA8E01DEB8DF8001A4263 /* ResultatViewController.m */,
+				99D03B181DE47F6200364CBF /* AppDelegate.m */,
+				99D03B1B1DE47F6200364CBF /* ViewController.m */,
+			);
+			name = controler;
+			sourceTree = "<group>";
+		};
 		99D03B081DE47F6200364CBF = {
 			isa = PBXGroup;
 			children = (
+				999B86871DE923AE0055ACAB /* MatiereTableViewCell.xib */,
 				99D03B131DE47F6200364CBF /* GestionNote */,
 				99D03B121DE47F6200364CBF /* Products */,
 			);
@@ -58,10 +146,11 @@
 		99D03B131DE47F6200364CBF /* GestionNote */ = {
 			isa = PBXGroup;
 			children = (
-				99D03B171DE47F6200364CBF /* AppDelegate.h */,
-				99D03B181DE47F6200364CBF /* AppDelegate.m */,
-				99D03B1A1DE47F6200364CBF /* ViewController.h */,
-				99D03B1B1DE47F6200364CBF /* ViewController.m */,
+				996450171DFDC6D700B67D13 /* library */,
+				9953A03B1DECF4340061B27A /* plus.png */,
+				998AA8E31DEBA904001A4263 /* interfaces */,
+				999B867E1DE8F1E10055ACAB /* controler */,
+				999B867D1DE8F1D70055ACAB /* model */,
 				99D03B1D1DE47F6300364CBF /* Main.storyboard */,
 				99D03B201DE47F6300364CBF /* Assets.xcassets */,
 				99D03B221DE47F6300364CBF /* LaunchScreen.storyboard */,
@@ -138,8 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D03B241DE47F6300364CBF /* LaunchScreen.storyboard in Resources */,
+				9953A03C1DECF4340061B27A /* plus.png in Resources */,
 				99D03B211DE47F6300364CBF /* Assets.xcassets in Resources */,
 				99D03B1F1DE47F6300364CBF /* Main.storyboard in Resources */,
+				999B86891DE923AE0055ACAB /* MatiereTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9964501E1DFDC72200B67D13 /* BWJSONMatcher.m in Sources */,
 				99D03B1C1DE47F6200364CBF /* ViewController.m in Sources */,
+				99785DAD1DEB122B00FAD498 /* TableViewController.m in Sources */,
 				99D03B191DE47F6200364CBF /* AppDelegate.m in Sources */,
+				996450221DFDDBCD00B67D13 /* InscriViewController.m in Sources */,
 				99D03B161DE47F6200364CBF /* main.m in Sources */,
+				999B86881DE923AE0055ACAB /* MatiereTableViewCell.m in Sources */,
+				9917C2671DEB313300C8D1D7 /* FormulaireViewController.m in Sources */,
+				9964501F1DFDC72200B67D13 /* NSObject+BWJSONMatcher.m in Sources */,
+				998AA8E11DEB8DF8001A4263 /* ResultatViewController.m in Sources */,
+				999B86811DE8F26D0055ACAB /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +406,7 @@
 				99D03B2A1DE47F6300364CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
