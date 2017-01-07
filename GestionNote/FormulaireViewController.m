@@ -11,8 +11,8 @@
 #import "MatiereTableViewCell.h"
 #import "AppDelegate.h"
 #import "Note.h"
-#import "NSObject+BWJSONMatcher.h"
-#import "BWJSONMatcher.h"
+#import "BWJSONMatcher/NSObject+BWJSONMatcher.h"
+#import "BWJSONMatcher/BWJSONMatcher.h"
 
 @interface FormulaireViewController ()
 
@@ -143,6 +143,11 @@
     
     
     
+}
+
+-(void) getMariem{
+
+    NSLog(@"lllll");
 }
 
 @end
